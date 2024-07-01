@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ochuko Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0679482f3b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h3 class="page-heading">Ochuko's Tech Vision in 2 years</h3>
+      <p class="top-description">
+        Hi Guys, my name is Ochuko. I am Fullstack developer. I currently work
+        with React, NextJS, Remix, NodeJS. I generally have interests in
+        Javascript and typescript technologies. I also have interests in devops,
+        and I am big on open-source.
+      </p>
+      <img
+        class="image"
+        data-testid="slackProfilePicture"
+        alt="ochuko-slack"
+        height="512"
+        width="512"
+        src="ochuko-slack.jpeg"
+      />
+      <section>
+        <h4 class="interests-heading">My Tech Interests</h4>
+        <div class="interests">
+          <p class="interest-card">Mobile app development</p>
+          <p class="interest-card">Desktop app development</p>
+          <p class="interest-card">Devops</p>
+          <p class="interest-card">Cloud</p>
+          <p class="interest-card">Infrastructure as code</p>
+          <p class="interest-card">Top open source contributor</p>
+          <p class="interest-card">Speaker In Tech</p>
+          <p class="interest-card">Advocate for Javascript technologies</p>
+        </div>
+      </section>
+      <section>
+        <h4 class="interests-heading">Required properties</h4>
+        <div class="interests">
+          <div data-testid="slackDisplayName" class="required-parent">
+            <i class="fa-regular fa-user icon"></i>
+            <p class="slack-name interest-card">OcHuKo</p>
+          </div>
+          <div data-testid="currentTimeUTC" class="required-parent">
+            <i class="fa-regular fa-clock icon"></i>
+            <p id="utc" class="slack-name interest-card">utc</p>
+          </div>
+          <div data-testid="currentDay" class="required-parent">
+            <i class="fa-regular fa-calendar icon"></i>
+            <p id="day" class="slack-name interest-card">day</p>
+          </div>
+          <div data-testid="slackEmail" class="required-parent">
+            <i class="fa-regular fa-envelope icon"></i>
+            <p id="day" class="slack-name interest-card">
+              whoroochuko@gmail.com
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <a
+          class="link"
+          href="https://hng.tech/learn"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="hngLink"
+          >Learn more about hng</a
+        >
+        <a
+          class="link"
+          href="https://keyword.dog/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="keywordLink"
+          >Append correct keywords to your website to rank</a
+        >
+        <a
+          class="link"
+          href="https://scrapeanyweb.site/"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="scrapeanywebLink"
+          >Scrape websites</a
+        >
+      </footer>
+    </main>
+  </body>
+</html>

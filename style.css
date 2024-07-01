@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  padding: 16px;
+}
+
+.page-heading {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.top-description {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.interests-heading {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.interests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+.interest-card {
+  text-transform: capitalize;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: black;
+  background-color: burlywood;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  margin: 8px 12px;
+  text-wrap: nowrap;
+}
+
+.interest-card:hover {
+  color: aliceblue;
+  transform: scale(1.05);
+}
+
+.slack-name {
+  font-weight: bold;
+  text-transform: none;
+  color: gainsboro;
+  background-color: rgb(110, 155, 110);
+}
+
+.required-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.required-parent.icon {
+  opacity: 0;
+  transition: all 150ms ease-in-out;
+}
+
+.required-parent:hover.icon {
+  opacity: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  margin: 4px 16px;
+  border: 1px solid black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 150ms ease-in-out;
+}
+
+.link:hover {
+  background-color: gray;
+  color: aliceblue;
+  border-color: transparent;
+}
