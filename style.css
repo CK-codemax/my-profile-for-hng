@@ -37,6 +37,13 @@ main {
   flex-flow: row wrap;
 }
 
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
 .image {
   max-width: 100%;
   height: auto;
